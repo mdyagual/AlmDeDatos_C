@@ -9,4 +9,6 @@ typedef struct Usuario{
 }Usuario_t;
 
 int validar(Usuario_t *dataU);
+int contarNums(char *n);
+int contarLetras(char *l);
 
