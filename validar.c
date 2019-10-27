@@ -1,8 +1,7 @@
 #include"validar.h"
 #include<ctype.h>
 #include<string.h>
-int contarNums(char *n);
-int contarLetras(char *l);
+
 int validar(Usuario_t *dataU){
 	dataU->nombre[0]=toupper(dataU->nombre[0]);
 	dataU->apellido[0]=toupper(dataU->apellido[0]);
